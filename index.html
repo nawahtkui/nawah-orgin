@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nawah Token Repositories Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4a90e2;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #4a90e2;
+    }
+    .repo {
+      background: #fff;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>لوحة مستودعات Nawah Token</h1>
+    <p>روابط وتوصيات النشر النهائية لكل مشروع</p>
+  </header>
+  <main>
+    
+    <div class="repo">
+      <h2>1. nawahpi</h2>
+      <p><strong>الفرع للنشر:</strong> main</p>
+      <p><strong>مجلد النشر:</strong> /root</p>
+      <p><strong>الرابط المتوقع:</strong> <a href="https://username.github.io/nawahpi/" target="_blank">https://username.github.io/nawahpi/</a></p>
+      <ul>
+        <li>تحقق من وجود index.html وجميع ملفات CSS وJS والصور.</li>
+        <li>راجع الصور وملفات JS قبل النشر النهائي.</li>
+      </ul>
+    </div>
+
+    <div class="repo">
+      <h2>2. pi</h2>
+      <p><strong>الفرع للنشر:</strong> main</p>
+      <p><strong>مجلد النشر:</strong> /root</p>
+      <p><strong>الرابط المتوقع:</strong> <a href="https://username.github.io/pi/" target="_blank">https://username.github.io/pi/</a></p>
+      <ul>
+        <li>تحقق من وجود index.html وجميع الملفات.</li>
+        <li>إذا استخدمت ملف .env، تأكد من عدم رفع البيانات الحساسة.</li>
+      </ul>
+    </div>
+
+    <div class="repo">
+      <h2>3. nawah-ui</h2>
+      <p><strong>الفرع للنشر:</strong> main</p>
+      <p><strong>مجلد النشر:</strong> /root</p>
+      <p><strong>الرابط المتوقع:</strong> <a href="https://username.github.io/nawah-ui/" target="_blank">https://username.github.io/nawah-ui/</a></p>
+      <ul>
+        <li>تأكد من بناء واجهة React أولاً (npm run build).</li>
+        <li>تحقق من أن الملفات الناتجة index.html, CSS, JS موجودة في المجلد الصحيح.</li>
+      </ul>
+    </div>
+
+    <div class="repo">
+      <h2>4. password-vault-app</h2>
+      <p><strong>الفرع للنشر:</strong> main</p>
+      <p><strong>مجلد النشر:</strong> /root</p>
+      <p><strong>الرابط المتوقع:</strong> <a href="https://username.github.io/password-vault-app/" target="_blank">https://username.github.io/password-vault-app/</a></p>
+      <ul>
+        <li>تحقق من الملفات التنفيذية وواجهة المستخدم.</li>
+        <li>تأكد من عمل ملفات JS وCSS بشكل كامل قبل النشر.</li>
+      </ul>
+    </div>
+
+    <div class="repo">
+      <h2>خطوات النشر النهائية لكل مستودع</h2>
+      <ul>
+        <li>تأكد من وجود الملفات الأساسية في الفرع الصحيح.</li>
+        <li>اذهب إلى Settings > Pages لكل مستودع:
+          <ul>
+            <li>Build and deployment: Deploy from a branch</li>
+            <li>اختر الفرع والمجلد (/root)</li>
+            <li>اضغط Save</li>
+          </ul>
+        </li>
+        <li>انتظر دقائق قليلة وافتح الرابط المتوقع للتأكد من عمل الموقع.</li>
+        <li>(اختياري) ربط نطاق مخصص في Settings > Pages > Custom domain إذا أردت استخدام nawah.org.</li>
+      </ul>
+    </div>
+
+  </main>
+</body>
+</html>
